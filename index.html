@@ -12,13 +12,13 @@
             <h1>MADAM MAAFI DEDO, AGLI BAAR DOBARA NHI KARUNGA, YKR I FW YOU AND CAN'T RESIST TO TALK TO YOU.</h1>
             <p>(sorryy piyaaa 🎀)</p>
         </div>
-        <button class="reveal-btn">MWAHH</button>
-        <div class="hidden-message">I'm really sorry. Please forgive me!</div>
+        <button class="reveal-btn" onclick="document.querySelector('.hidden-message').style.display = 'block';">MWAHH</button>
+        <div class="hidden-message" style="display: none;">I'm really sorry. Please forgive me!</div>
         <div class="moon"></div>
         <div class="flowers"></div>
     </div>
-    <audio autoplay loop>
-        <source src="here-with-me.mp3" type="audio/mp3">
+    <audio id="background-music" autoplay loop>
+        <source src="audio/here-with-me.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <script src="script.js"></script>
