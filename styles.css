@@ -13,6 +13,7 @@ body {
 
 .container {
     text-align: center;
+    position: relative; /* Ensure moon and flowers are positioned relative to this container */
 }
 
 .message h1 {
